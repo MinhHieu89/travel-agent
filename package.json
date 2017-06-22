@@ -1,23 +1,16 @@
 {
   "name": "travel-agent",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MinhHieu89/travel-agent.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MinhHieu89/travel-agent/issues"
-  },
-  "homepage": "https://github.com/MinhHieu89/travel-agent#readme",
   "dependencies": {
     "jquery": "^3.2.1",
     "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-watch": "^4.3.11",
+    "postcss-nested": "^2.0.2",
+    "postcss-simple-vars": "^4.0.0"
   }
 }
