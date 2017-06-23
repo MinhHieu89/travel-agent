@@ -793,8 +793,7 @@ a {
 @media (min-width: 530px) {
 
 .section-title__icon {
-            margin-right: .5rem;
-            margin-left: 0;
+            margin: 0 .2rem 0 0;
             display: inline-block
     }
     }
