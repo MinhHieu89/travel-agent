@@ -11280,7 +11280,7 @@ var StickyHeader = function () {
     _createClass(StickyHeader, [{
         key: 'refreshWaypoints',
         value: function refreshWaypoints() {
-            this.lazyImages.load(function () {
+            this.lazyImages.on('load', function () {
                 Waypoint.refreshAll();
             });
         }
@@ -11319,7 +11319,7 @@ var StickyHeader = function () {
                             (0, _jquery2.default)(link).addClass('is-current-link');
                         }
                     },
-                    offset: '20%'
+                    offset: '30%'
                 });
 
                 new Waypoint({
@@ -11763,7 +11763,7 @@ var Modal = function () {
         key: 'openModal',
         value: function openModal() {
             this.modal.addClass('modal--is-visible');
-            return false;
+            return false; // Prevent defaut behavior of anchor tag.
         }
     }, {
         key: 'closeModal',

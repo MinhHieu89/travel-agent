@@ -27,7 +27,7 @@ class Modal {
 
     openModal() {
         this.modal.addClass('modal--is-visible');
-        return false;
+        return false;   // Prevent defaut behavior of anchor tag.
     }
 
     closeModal() {
